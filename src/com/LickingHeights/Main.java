@@ -7,17 +7,19 @@ public class Main {
 
 
     public static void main(String[] args) {
-        keepContained();
+        lastDigit();
 
 
     }
 
 
 
-    public static void keepContained() {
+    public static void lastDigit() {
         Scanner
         Keyboard = new Scanner (System.in);
-        int number = 0;
+        int number = 2424;
+
+        System.out.println("Type a positive four digit number");
 
         System.out.println("number contained is: " + (number%8)+5);
 
