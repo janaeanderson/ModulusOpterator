@@ -7,26 +7,44 @@ public class Main {
 
 
     public static void main(String[] args) {
-        testOddness();
+        keepContained();
 
 
     }
 
 
 
-    public static void testOddness() {
+    public static void keepContained() {
+        Scanner
+        Keyboard = new Scanner (System.in);
+        int number = 0;
 
-        int pNumber = 12;
+        System.out.println("number contained is: " + (number%8)+5);
 
-        System.out.println("testOddness");
+        System.out.println((number %8)+5);
 
-        Scanner keyboard = new Scanner(System.in);
+        number = 1;
+        System.out.println((number %8)+5);
 
-        System.out.println("Type a positive number");
-        pNumber = keyboard.nextInt();
+        number = 2;
+        System.out.println((number %8)+5);
+
+        number = 3;
+        System.out.println((number %8)+5);
+
+        number = 4;
+        System.out.println((number %8)+5);
+
+        number = 5;
+        System.out.println((number %8)+5);
+
+        number = 6;
+        System.out.println((number %8)+5);
+
+        number = 7;
+        System.out.println((number %8)+5);
 
 
-        System.out.println("Number is odd "+ (pNumber % 2 !=0));
 
 
 
